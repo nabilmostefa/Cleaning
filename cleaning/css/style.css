@@ -1,0 +1,56 @@
+@import url('https:fonts.googleapis.com/css2?family=Chela+One&display=swap');
+@import url('https:fonts.googleapis.com/css2?family=NTR&display=swap');
+
+:root {
+    --font-family-title: 'Chela One', cursive;
+    --color: #2785d8;
+    --color-ylw: #eac534;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'NTR', sans-serif;
+}
+
+#color-bottom {
+    position: relative;
+    color: #eac534;
+
+}
+
+#color-bottom::after{
+    position: absolute;
+    content: '';
+    left: 46%;
+    bottom: -2px;
+    width: 8%;
+    height: 2px;
+    background-color: var(--color-ylw);
+}
+
+.ff-c{
+    font-family: var(--font-family-title);
+}
+
+.cil img{
+    width: 100%;
+    height: 100%;
+    transition: scale 400ms;
+    cursor: pointer;
+}
+
+
+.cil img:hover{
+    scale: 108%;
+}
+
+.cil{
+    overflow: hidden;
+
+}
+
+.gallery{
+    padding: 20px 0;
+}
